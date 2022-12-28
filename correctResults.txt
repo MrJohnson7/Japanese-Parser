@@ -1,0 +1,259 @@
+[johns837@empress ParserFiles]$ ls
+a.out           #group6parser.cpp#  Japanese2.txt  myscanner.cpp    OutputEC.txt  parser.cpp~     ParserWork.txt  partBtest3  partBtest6  partCtest3  partCtest6   updatedProj.cpp
+correctoutput1  group6parser.cpp    Japanese.txt   ourscanner.cpp   #parser.cpp#  ParserFiles     partBtest1      partBtest4  partCtest1  partCtest4  partECtest7  updatedProj.cpp~
+correctoutput6  group6parser.out    Japanese.txt~  ourscanner.cpp~  parser.cpp    parserWork.txt  partBtest2      partBtest5  partCtest2  partCtest5  @readMe
+[johns837@empress ParserFiles]$ g++ group6parser.cpp
+[johns837@empress ParserFiles]$ ./a.out
+Parser!
+Group #6 probably?
+Members: Noah DeFrench  Nick Johnson    Kyle Monroe
+Enter the input file name: Japanese.txt
+Doing <story>
+Doing: <s>
+
+....Scanner was called...
+Scanning: watashi
+Doing: <noun>
+Match for: PRONOUN
+
+....Scanner was called...
+Scanning: wa
+Match for: SUBJECT
+Doing <afterSubject>
+
+....Scanner was called...
+Scanning: rika
+Match for: WORD1
+Doing <afterNoun>
+
+....Scanner was called...
+Scanning: desu
+Doing <be>
+Match for: IS
+
+....Scanner was called...
+Scanning: .
+Match for: PERIOD
+
+....Scanner was called...
+Scanning: watashi
+Doing: <s>
+Doing: <noun>
+Match for: PRONOUN
+
+....Scanner was called...
+Scanning: wa
+Match for: SUBJECT
+Doing <afterSubject>
+
+....Scanner was called...
+Scanning: sensei
+Match for: WORD1
+Doing <afterNoun>
+
+....Scanner was called...
+Scanning: desu
+Doing <be>
+Match for: IS
+
+....Scanner was called...
+Scanning: .
+Match for: PERIOD
+
+....Scanner was called...
+Scanning: watashi
+Doing: <s>
+Doing: <noun>
+Match for: PRONOUN
+
+....Scanner was called...
+Scanning: wa
+Match for: SUBJECT
+Doing <afterSubject>
+
+....Scanner was called...
+Scanning: ryouri
+Match for: WORD1
+Doing <afterNoun>
+
+....Scanner was called...
+Scanning: o
+Match for: OBJECT
+Doing <afterObject>
+
+....Scanner was called...
+Scanning: yarI
+Match for: WORD2
+Doing: <tense>
+
+....Scanner was called...
+Scanning: masu
+Match for: VERB
+
+....Scanner was called...
+Scanning: .
+Match for: PERIOD
+
+....Scanner was called...
+Scanning: watashi
+Doing: <s>
+Doing: <noun>
+Match for: PRONOUN
+
+....Scanner was called...
+Scanning: wa
+Match for: SUBJECT
+Doing <afterSubject>
+
+....Scanner was called...
+Scanning: gohan
+Match for: WORD1
+Doing <afterNoun>
+
+....Scanner was called...
+Scanning: o
+Match for: OBJECT
+Doing <afterObject>
+
+....Scanner was called...
+Scanning: seito
+Match for: WORD1
+
+....Scanner was called...
+Scanning: ni
+Match for: DESTINATION
+
+....Scanner was called...
+Scanning: agE
+Match for: WORD2
+Doing: <tense>
+
+....Scanner was called...
+Scanning: mashita
+Match for: VERBPAST
+
+....Scanner was called...
+Scanning: .
+Match for: PERIOD
+
+....Scanner was called...
+Scanning: shikashi
+Doing: <s>
+Match for: CONNECTOR
+Doing: <noun>
+
+....Scanner was called...
+Scanning: seito
+Match for: WORD1
+
+....Scanner was called...
+Scanning: wa
+Match for: SUBJECT
+Doing <afterSubject>
+
+....Scanner was called...
+Scanning: yorokobI
+Match for: WORD2
+Doing: <tense>
+
+....Scanner was called...
+Scanning: masendeshita
+Match for: VERBPASTNEG
+
+....Scanner was called...
+Scanning: .
+Match for: PERIOD
+
+....Scanner was called...
+Scanning: dakara
+Doing: <s>
+Match for: CONNECTOR
+Doing: <noun>
+
+....Scanner was called...
+Scanning: watashi
+Match for: PRONOUN
+
+....Scanner was called...
+Scanning: wa
+Match for: SUBJECT
+Doing <afterSubject>
+
+....Scanner was called...
+Scanning: kanashii
+Match for: WORD1
+Doing <afterNoun>
+
+....Scanner was called...
+Scanning: deshita
+Doing <be>
+Match for: WAS
+
+....Scanner was called...
+Scanning: .
+Match for: PERIOD
+
+....Scanner was called...
+Scanning: soshite
+Doing: <s>
+Match for: CONNECTOR
+Doing: <noun>
+
+....Scanner was called...
+Scanning: watashi
+Match for: PRONOUN
+
+....Scanner was called...
+Scanning: wa
+Match for: SUBJECT
+Doing <afterSubject>
+
+....Scanner was called...
+Scanning: toire
+Match for: WORD1
+Doing <afterNoun>
+
+....Scanner was called...
+Scanning: ni
+Match for: DESTINATION
+
+....Scanner was called...
+Scanning: ikI
+Match for: WORD2
+Doing: <tense>
+
+....Scanner was called...
+Scanning: mashita
+Match for: VERBPAST
+
+....Scanner was called...
+Scanning: .
+Match for: PERIOD
+
+....Scanner was called...
+Scanning: watashi
+Doing: <s>
+Doing: <noun>
+Match for: PRONOUN
+
+....Scanner was called...
+Scanning: wa
+Match for: SUBJECT
+Doing <afterSubject>
+
+....Scanner was called...
+Scanning: nakI
+Match for: WORD2
+Doing: <tense>
+
+....Scanner was called...
+Scanning: mashita
+Match for: VERBPAST
+
+....Scanner was called...
+Scanning: .
+Match for: PERIOD
+
+....Scanner was called...
+Scanning: eofm
+[johns837@empress ParserFiles]$
